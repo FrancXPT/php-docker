@@ -2,9 +2,9 @@ name: php-7.4-mongo
 
 on:
   push:
-    branches: [ mongo ]
+    branches: [ main ]
   pull_request:
-    branches: [ mongo ]
+    branches: [ main ]
 
 jobs:
 
