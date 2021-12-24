@@ -8,4 +8,5 @@ RUN apt-get update \
     && echo "extension=mongodb.so" >> /usr/local/etc/php/php.ini \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
+RUN a2enmod rewrite
 EXPOSE 80
