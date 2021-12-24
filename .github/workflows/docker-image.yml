@@ -1,4 +1,4 @@
-name: php-7.4-mongo
+name: php-7.4:mongo
 
 on:
   push:
