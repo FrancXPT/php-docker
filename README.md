@@ -1,4 +1,4 @@
-"# php-docker"
+# php-docker
        
    # Use root/example as user/password credentials
     version: '3.1'
