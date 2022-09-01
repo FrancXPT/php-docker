@@ -1,10 +1,10 @@
-name: php-7.4:main
+name: php-7.4:ioncube
 
 on:
   push:
-    branches: [ main ]
+    branches: [ ioncube ]
   pull_request:
-    branches: [ main ]
+    branches: [ ioncube ]
 
 jobs:
 
