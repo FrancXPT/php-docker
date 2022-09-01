@@ -8,6 +8,6 @@ RUN cd /tmp \
     && cp /usr/local/etc/php/php.ini-production /usr/local/etc/php/php.ini \
     && cat /usr/local/etc/php/php.ini > saved_php.ini \
     && echo "zend_extension = /usr/local/ioncube/ioncube_loader_lin_7.4.so" >> /usr/local/etc/php/php.ini \
-    && cat saved_php.ini >> /opt/bitnami/php/etc/php.ini 
+    && cat saved_php.ini >> /usr/local/etc/php/php.ini
 RUN a2enmod rewrite
 EXPOSE 80
