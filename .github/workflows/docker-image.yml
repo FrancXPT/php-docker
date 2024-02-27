@@ -1,10 +1,8 @@
-name: php-7.4:main
+name: php-8.3:main
 
 on:
   push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
 
 jobs:
 
@@ -24,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: francxpt/php-7.4
+          images: francxpt/php-8.3
 
       - name: Build and push
         uses: docker/build-push-action@v2
